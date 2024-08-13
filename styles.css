@@ -90,16 +90,22 @@ ul.menu li a:hover {
     color: #e67e22;
 }
 
-footer {
+.footer {
     text-align: center;
-    padding: 15px 10px;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
     z-index: 1;
+}
+
+.footer-logo {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
 }
 
 /* Estilos específicos para dispositivos móveis */
