@@ -23,4 +23,23 @@ document.addEventListener("DOMContentLoaded", function() {
         // Redireciona para o link do WhatsApp
         window.location.href = whatsappLink;
     });
+
+    const slides = document.querySelectorAll(".carousel-slide");
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.opacity = i === index ? "1" : "0";
+        });
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    setInterval(nextSlide, 2000); // Muda o slide a cada 2 segundos
+
+    // Inicializa o carousel
+    showSlide(currentSlide);
 });
