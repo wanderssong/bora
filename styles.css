@@ -50,12 +50,16 @@ ul.menu li a {
     text-decoration: none;
     background: #f39c12;
     border-radius: 5px;
-    display: block;
+    display: inline-block; /* Muda para inline-block para controlar a largura */
+    width: 80%; /* Ajuste a largura para 80% */
+    max-width: 300px; /* Limita a largura máxima para evitar que fiquem muito grandes em telas maiores */
 }
 
 ul.menu li a:hover {
     background: #e67e22;
 }
+
+
 
 .units-section {
     display: none; /* Escondido por padrão */
@@ -116,6 +120,7 @@ footer {
     ul.menu li a {
         font-size: 14px;
         padding: 8px 15px;
+        width: 90%;
     }
 
     .units-section {
