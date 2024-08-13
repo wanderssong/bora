@@ -15,7 +15,7 @@ header {
 }
 
 header img {
-    max-width: 100px;
+    max-width: 130px;
 }
 
 header .intro {
@@ -37,7 +37,7 @@ ul.menu {
     padding: 0;
     margin: 10px 0;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
+    
 }
 
 ul.menu li {
