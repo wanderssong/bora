@@ -1,158 +1,94 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://img.freepik.com/vetores-premium/fundo-de-espuma-e-bolhas-de-cerveja_186921-100.jpg'); /* Substitua pelo caminho correto */
+    margin: 0;
+    padding: 0;
+    background-image: url('img/frentebora.jpeg');
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #333;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+    background-attachment: fixed;
 }
 
 header {
-    position: relative;
-    padding: 20px;
-    background-image: url('img/frentebora.jpeg'); /* Caminho da imagem de fundo */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+header img {
+    max-width: 190px;
 }
 
-.logo {
-    position: relative;
-    z-index: 2;
-    max-width: 150px;
-    height: auto;
+header .intro {
+    color: #fff;
 }
 
-.menu {
-    position: relative;
-    z-index: 2;
-    margin-top: 20px;
-}
-
-.button {
-    display: block;
-    margin: 10px auto;
-    padding: 15px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    width: 80%;
-    box-sizing: border-box;
-}
-
-.whatsapp {
-    background-color: #25D366;
-}
-
-.instagram {
-    background-color: #C13584;
-}
-
-.units {
-    background-color: #FFD700;
-    color: #000;
-}
-
-.facebook {
-    background-color: #4267B2;
-}
-
-.units-section {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    display: none; /* Escondido por padrão */
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    margin-top: 20px; /* Distância entre o menu e as unidades */
-}
-
-.units-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #000;
-}
-
-.unit {
+header h1 {
+    font-size: 36px;
     margin: 10px 0;
 }
 
-.unit a {
-    text-decoration: none;
+header p {
     font-size: 18px;
-    color: #000;
-    background-color: #FFD700;
-    padding: 10px 15px;
-    border-radius: 50px;
-    display: inline-block;
-    width: 80%;
-}
-
-.brands {
-    padding: 5px;
-    background-image: url('https://img.freepik.com/vetores-premium/fundo-de-espuma-e-bolhas-de-cerveja_186921-100.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.8); /* Transparência para a imagem de fundo */
-    z-index: 2;
-    position: relative;
-    width: 100%;
-    margin-top: 15px; /* Espaçamento entre as marcas e o menu */
-    border-radius: 10px;
-}
-
-.brand {
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.brand-logo {
-    max-width: 100px;
-    margin-bottom: 15px;
-}
-
-.brand-info h3 {
     margin: 0;
-    font-size: 22px;
-    color: #000;
 }
 
-.brand-info p {
-    margin: 5px 0 0;
-    font-size: 16px;
-    color: #555;
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+ul.menu li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul.menu li a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #f39c12;
+    border-radius: 5px;
+}
+
+ul.menu li a:hover {
+    background: #e67e22;
+}
+
+.units-section {
+    display: none; /* Escondido por padrão */
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.units-section h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.unit a {
+    display: block;
+    color: #f39c12;
+    font-size: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.unit a:hover {
+    color: #e67e22;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
