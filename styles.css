@@ -69,6 +69,7 @@ ul.menu li a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     text-align: center;
+    z-index: 10%;
 }
 
 .units-section h2 {
@@ -127,7 +128,7 @@ footer {
     .units-section {
         margin: 15px 10px;
         padding: 10px;
-        z-index: 2;
+        
     }
 
     .units-section h2 {
