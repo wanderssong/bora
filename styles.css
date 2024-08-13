@@ -9,6 +9,12 @@ body {
     
 }
 
+body.no-scroll {
+    overflow: hidden; /* Remove a rolagem */
+    position: fixed; /* Garante que o corpo não se mova */
+    width: 100%; /* Garante que a largura do corpo seja preservada */
+}
+
 header {
     text-align: center;
     padding: 40px 10px;
