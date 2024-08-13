@@ -90,6 +90,49 @@ ul.menu li a:hover {
     color: #ffd54f; /* Cor diferente ao passar o mouse */
 }
 
+.brands-section {
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    z-index: 3;
+}
+
+.brands-section h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.brand {
+    max-width: 200px;
+}
+
+.brand img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.brand p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Estilos específicos para dispositivos móveis */
+
+    
+
 
 .footer {
     text-align: center;
@@ -145,5 +188,18 @@ ul.menu li a:hover {
 
     .unit a {
         font-size: 16px;
+    }
+
+    .brands-section {
+        margin: 15px 10px;
+        padding: 10px;
+    }
+
+    .brands-section h2 {
+        font-size: 20px;
+    }
+
+    .brand p {
+        font-size: 14px;
     }
 }
