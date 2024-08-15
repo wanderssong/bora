@@ -79,13 +79,13 @@ ul.menu li a:hover {
 }
 
 .units-section h2 {
-    font-size: 24px;
+    font-size: 34px;
     color: #fff;
     margin-bottom: 15px;
 }
 
 .unit a {
-    font-size: 28px; /* Aumenta o tamanho da fonte */
+    font-size: 38px; /* Aumenta o tamanho da fonte */
     font-weight: bold; /* Torna o texto em negrito */
     color: #ffc107; /* Cor destacada */
     text-decoration: none;
@@ -242,15 +242,7 @@ ul.menu li a:hover {
         font-size: 16px;
     }
 
-    #unidades {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 0px 0px; /* Controla o espaço interno da seção */
-        margin: 0 auto;
-    }
+    
 
     .brands-section {
         margin: 15px 10px;
