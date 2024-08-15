@@ -17,7 +17,7 @@ body.no-scroll {
 
 header {
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px 10px;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -207,7 +207,7 @@ ul.menu li a:hover {
 /* Estilos específicos para dispositivos móveis */
 @media screen and (max-width: 600px) {
     header {
-        padding: 30px 10px;
+        padding: 20px 10px;
     }
 
     header h1 {
