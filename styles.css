@@ -101,7 +101,7 @@ ul.menu li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px 10px; /* Controla o espaço interno da seção */
+    padding: 0px 0px; /* Controla o espaço interno da seção */
     margin: 0 auto;
 }
 
