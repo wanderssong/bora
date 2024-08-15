@@ -101,9 +101,10 @@ ul.menu li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    padding: 10px 10px; /* Controla o espaço interno da seção */
     margin: 0 auto;
 }
+
 
 .brands-section {
     margin: 20px 10px;
