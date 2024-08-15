@@ -242,6 +242,16 @@ ul.menu li a:hover {
         font-size: 16px;
     }
 
+    #unidades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 0px; /* Controla o espaço interno da seção */
+        margin: 0 auto;
+    }
+
     .brands-section {
         margin: 15px 10px;
         padding: 10px;
